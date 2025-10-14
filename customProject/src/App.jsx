@@ -5,6 +5,7 @@ function App() {
 
   // use useState
   const [value, setValue] = useState(5);
+  // let value = 5
 
   const addValue = () => {
     // Only increase value if it's less than 20
